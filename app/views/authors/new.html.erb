@@ -1,0 +1,11 @@
+<h3> Author Form </h3>
+
+<%= form_for(@author) do |f| %>
+    <%= f.label 'Author Name:' %><br>
+    <%= f.text_field :name %><br>
+
+    <%= f.label 'Phone Number:' %><br>
+    <%= f.text_field :phone_number %><br>
+    
+    <%= f.submit %>
+<% end %> 
